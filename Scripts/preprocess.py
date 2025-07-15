@@ -15,7 +15,7 @@ data.fillna('NA', inplace=True)
 # Check for missing values
 print(data.isnull().sum())
 
-# Display the first few rows of the dataset
+# Display the first few rows of the datasets
 print(data.head(n=30))
 
 
